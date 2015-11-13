@@ -1,15 +1,12 @@
 *{	font-family: 'Josefin Sans', sans-serif;
 	box-sizing: border-box;
+	padding: 4px 3px;
 }
 a {
 	color:#6A5E57;
 	font-size: 30px;
 	transition:.3s;
 	text-decoration: none;
-}
-article{
-	margin-left: auto;
-	margin-right: auto;
 }
 a:hover {
 	color: black;
@@ -115,10 +112,16 @@ img {
 .inner {
 	position: absolute;
 	left: 40px;
-	top: 60px;
+	top: 55px;
 	z-index: 2;
 }
 .list-hex-grid {
 	margin-left: 200px;
-	width: 1000px;
+	margin-top: 50px;
+	width: 720px;
+	position: absolute;
+}
+.inner:hover ~ .hexagon {
+	opacity: 0.65;
+	transition: 0.5s;
 }
