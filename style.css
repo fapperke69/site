@@ -15,7 +15,6 @@ a:hover {
 	color: black;
 	transition: 0.5s;
 }
-
 figcaption {
 	font-weight: bold;
 }
@@ -50,6 +49,9 @@ header {
 	background:#F5F5F5;
 	margin:10px;
 }
+section {
+	clear: left;
+}
 div.hex {
 	display: inline-block;
 	vertical-align: middle;
@@ -58,7 +60,7 @@ div.hex {
 	position: relative;
 	z-index: 10;
 }
-.hex-1 {
+/*.hex-1 {
 	z-index: 1;
 	transform: rotate(-60deg) translate(-110px,0);
 	background-color: rgb(0,255,210);
@@ -73,40 +75,50 @@ div.hex {
 	width: 220px;
 	height: 190px;
 	position: absolute;
-}
+}*/
 img {
 	z-index: 2;
 }
 .hexagon {
-  position: relative;
-  width: 220px; 
-  height: 127.02px;
-  background-color: #4ae6d6;
-  margin: 63.51px 0;
-  opacity: 1;
-  transition: 0.5s;
+	position: absolute;
+	width: 220px; 
+	height: 127.02px;
+	background-color: #4ae6d6;
+	margin: 63.51px 0;
+	opacity: 1;
+	transition: 0.5s;
+	left: 0px;
+	top: 0px;
+	z-index:-1;
 }
 .hexagon:hover {
-	opacity: 0.8;
+	opacity: 0.65;
 	transition: 0.5s;
 }
-
 .hexagon:before,
 .hexagon:after {
-  content: "";
-  position: absolute;
-  width: 0;
-  border-left: 110px solid transparent;
-  border-right: 110px solid transparent;
+	content: "";
+	position: absolute;
+	width: 0;
+	border-left: 110px solid transparent;
+	border-right: 110px solid transparent;
 }
-
 .hexagon:before {
-  bottom: 100%;
-  border-bottom: 63.51px solid #4ae6d6;
+	bottom: 100%;
+	border-bottom: 63.51px solid #4ae6d6;
 }
-
 .hexagon:after {
-  top: 100%;
-  width: 0;
-  border-top: 63.51px solid #4ae6d6;
+	top: 100%;
+	width: 0;
+	border-top: 63.51px solid #4ae6d6;
+}
+.inner {
+	position: absolute;
+	left: 40px;
+	top: 60px;
+	z-index: 2;
+}
+.list-hex-grid {
+	margin-left: 200px;
+	width: 1000px;
 }
