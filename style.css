@@ -97,8 +97,9 @@ img {
 	content: "";
 	position: absolute;
 	width: 0;
-	border-left: 108px solid transparent;
+	border-left: 110px solid transparent;
 	border-right: 110px solid transparent;
+	margin-left: -3px;
 }
 .hexagon:before {
 	bottom: 100%;
@@ -136,4 +137,8 @@ img {
 }
 .grid-2 .hexagon {
 	background-color: #ff464a;
+}
+.grid-2 .inner {
+	left: 13px;
+	top: 27px;
 }
