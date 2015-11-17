@@ -15,9 +15,6 @@ a:hover {
 figcaption {
 	font-weight: bold;
 }
-/*a:visited {
-	color:#14140A;
-}*/
 .text-left {
 	float: left;
 	padding-top: 100px;
@@ -52,27 +49,11 @@ section {
 div.hex {
 	display: inline-block;
 	vertical-align: middle;
-	margin-top: 37px;
+	margin-top: 0px;
 	margin-bottom: 37px;
 	position: relative;
 	z-index: 10;
 }
-/*.hex-1 {
-	z-index: 1;
-	transform: rotate(-60deg) translate(-110px,0);
-	background-color: rgb(0,255,210);
-	width: 220px;
-	height: 190px;
-	position: absolute;
-}
-.hex-2 {
-	z-index: 1;
-	transform: rotate(60deg) translate(40px,40px);
-	background-color: rgb(0,255,210);
-	width: 220px;
-	height: 190px;
-	position: absolute;
-}*/
 img {
 	z-index: 2;
 }
@@ -112,12 +93,12 @@ img {
 }
 .inner {
 	position: absolute;
-	left: 40px;
+	left: 35px;
 	top: 52px;
 	z-index: 2;
 }
 .list-hex-grid {
-	margin-left: 200px;
+	margin-left: 507px;
 	width: 600px;
 	position: absolute;
 }
@@ -126,7 +107,8 @@ img {
 	transition: 0.5s;
 }
 .grid-2 {
-	margin-left: 250px;
+	margin-left: 400px;
+	top: -8px;
 }
 .grid-2 .hexagon:before {
 	border-bottom: 63.51px solid #ff464a;
@@ -142,8 +124,8 @@ img {
 	top: 27px;
 }
 .grid-3 {
-	margin-left: -283px;
-	top: 300px;
+	margin-left: -618px;
+	top: 575px;
 }
 .grid-3 .hexagon:before {
 	border-bottom: 63.51px solid #b3b3b3;
@@ -159,8 +141,8 @@ img {
 	top: 27px;
 }
 .grid-4 {
-	margin-left: 250px;
-	top: 300px;
+	margin-left: -158px;
+	top: 575px;
 }
 .grid-4 .hexagon:before {
 	border-bottom: 63.51px solid #b3b3b3;
@@ -185,4 +167,37 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	width: 250px;
+}
+
+.hexagon1 {
+	position: absolute;
+	left: -50%;
+}
+
+.hexagon2 {
+	position: absolute;
+	left: -73%;
+	top: 145%;
+}
+
+.hexagon3 {
+	position: absolute;
+	left: 53%;
+	top: -3600%;
+}
+
+.hexagon4 {
+	position: absolute;
+	left: 20%;
+	top: -3600%;
+}
+.inhoud {
+	width: 400px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.overflow {
+	overflow: auto;
+	width: 1200px;
 }

@@ -6,20 +6,23 @@
 	<meta name="desription" content="Lay-out voor dummies">
 	<meta name="keywords" content="">
 	<link rel="stylesheet" href="style.css"/>
+	<link rel="stylesheet" href="slider.css"/>
 	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,700' rel='stylesheet' type='text/css'>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<script type="text/javascript" src="js/scroll.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.3.js"></script>
+	<script src="js/animatie.js"></script>
 	<link href="icons/typo.png" rel=":shortcut icon" type="image/x-icon" />
 	</head>
 <body>
 	<div id="page-border">
 		<div id="wrap" class id="container">
 			<header id="header" class="clearfix section">
-				<nav id="nav" class="center grid>
+				<nav id="nav" class="center grid">
 					<div class="fonts-display clearfix">
 					
 					<p class="text-left alpha"><a href="#typo">Typografie</a>
-					<p class="text-left"><a href="#ontwerpen">Ontwerpen</a>
+					<p class="text-left"><a href="#slide_twee">Ontwerpen</a>
 					<p class="logo-block">
 						<a href="#home" title="Gemaakt door Dries De Vylder">
 							<img class="logo-img" src="images/logo-groot.png" alt="Gemaakt door Dries De Vylder" />
@@ -30,8 +33,25 @@
 					</div>
 				</nav>
 			</header>
-		<section class="interactive">
-			<div class="list-hex-grid list-inline-block clearfix">
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------->
+<div class="slider">
+
+	
+
+
+	<div class="hexagons">
+	<!-- dit is de div waar alle hexagons komen -->
+
+	
+	</div>
+	<!-- volgende hexagon komt hier. -->
+	
+				<section class="interactive">
+				
+				<div class="list-hex-grid list-inline-block clearfix">
+				<div class="hexagon1" onclick="hexagonslide(1)">
 				<div class="hex grid-1 full-img">
 					<a href ="#typo" title="Typografie">
 						<div class="inner">
@@ -40,7 +60,8 @@
 						<div class="hexagon"></div>
 					</a>
 				</div>
-				
+				</div>
+				<div class="hexagon2" onclick="hexagonslide(2)">
 				<div class="hex grid-2 full-img">
 					<a href ="#ontwerpen" title="Ontwerpen">
 						<div class="inner">
@@ -49,7 +70,8 @@
 						<div class="hexagon"></div>
 					</a>
 				</div>
-				
+				</div>
+				<div class="hexagon3" onclick="hexagonslide(3)">
 				<div class="hex grid-3 full-img">
 					<a href ="#letter" title="De letter">
 						<div class="inner">
@@ -58,7 +80,8 @@
 						<div class="hexagon"></div>
 					</a>
 				</div>
-				
+				</div>
+				<div class="hexagon4" onclick="hexagonslide(4)">
 				<div class="hex grid-4 full-img">
 					<a href ="#letteronderdelen" title="Letteronderdelen">
 						<div class="inner">
@@ -67,8 +90,199 @@
 						<div class="hexagon"></div>
 					</a>
 				</div>
+				</div>
 			</div>
 		</section>
+
+
+	</div>
+
+
+</div>
+
+
+<div class="leftbutton">
+
+		<a href="#" onclick="slider('links');"><div id="buttonleft"><img src="images/links.png"></div></a>
+
+	</div>
+
+	<div class="rightbutton">
+
+		<a href="#" onclick="slider('rechts');"><div id="buttonright"><img src="images/rechts.png"></div></a>
+		
+
+	</div>
+
+
+<div class="slides">
+	<!-- In deze div zet je alle slides.-->
+
+
+		<div id="slide_een">
+			<div class="overflow">
+			<div class="inhoud">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/wOgIkxAfJsk" frameborder="0" allowfullscreen></iframe>
+			</div>
+			</div>
+		</div>
+
+		<div id="slide_twee">
+			<div class="overflow">
+			<div class="inhoud">
+			<h1 id="ontwerpen">Ontwerpen</h1>
+				<h3 id="regels">Regels bij het ontwerpen</h3>
+				<blockquote>Regels zijn een <strong>hulpmiddel.</strong></blockquote>
+				<p><b>Enkele regels voor de tekst:</b></p>
+					<ul>
+						<li>Gebruik niet meer dan 2 - 3 verschillende lettertypes.</li>
+						<li>Variëren met normaal, <b>vet</b> en <i>cursief</i> kan ook...</li>
+						<li>Zet de tekst in een kleur die uit de afbeelding komt.</li>
+						<li>Maak je ontwerp niet overvol.</li>
+						<li>Denk aan de kleurenpsychologie.</li>
+					</ul>
+				<p><b>Enkele regels voor afbeeldingen:</b></p>
+					<ul>
+						<li>Gebruik één blikvanger die de lezer lokt.</li>
+						<li>Wit in een ontwerp is belangrijk.</li>
+						<li>Tekst kan ook als illustratie gebruikt worden.</li>
+						<li>Afbeeldingen zijn net als mode onderhevig aan de tijd.</li>
+						<li>Zorg er voor dat volgend jaar je ontwerp niet gedateerd is.</li>
+					</ul>
+				<p><b>Nog enkele algemene tips:</b></p>
+					<ul>
+						<li>Kijk rond en pleeg met mate plagiaat, gebruik andere voorbeelden om iets nieuws te maken.</li>
+						<li>Negatieve elementen kunnen positief uitvallen (wit op zwart).</li>
+						<li>Tekst in hoofdletter én fantasieletters mag niet, gebruik ook nooit Comic Sans.</li>
+						<li>Plaats letters niet onder elkaar in een verticale rij.</li>
+						<li>Probeer denkbeeldige lijning in het ontwerp te krijgen, dit zorgt voor rust in het ontwerp.</li>
+					</ul>
+			</div>
+			</div>
+		</div>
+
+		<div id="slide_drie">
+			<div class="overflow">
+			<div class="inhoud">
+			<h1 id="letter">De letter
+				</h1>
+					<h3 id="lettergroep">Een lettergroep
+					</h3>
+						<blockquote>Dit is een verzameling lettertypes die overeenkomsten vertonen. 
+						Een voorbeeld hiervan zijn de scripten of schrijfletters.
+						</blockquote>
+					<h3 id="lettertype">Een lettertype of letterfamilie
+					</h3>
+						<blockquote>Dit is het totaal van verschijningsvormen van een letter, ontworpen om met 
+						elkaar gebruikt te worden en die aangeduid worden met een naam (met 
+						verschillende toevoegingen), bijvoorbeeld Garamond Bold, Helvetica Regular. 
+						</blockquote>
+					<h3 id="font">Een font
+					</h3>
+						<blockquote>Dit is een variant van een lettertype, ook wel gradatie of lettersoort genoemd, 
+						zoals de cursieve versie van een lettertype. <br>
+						Een lettertype kan dus meer fonts bevatten. <br>
+						Als we één font kopen voor de computer, krijgen we strikt genomen één 
+						lettervariant van een lettertype. <br>Meestal worden ze echter als set verkocht, zoals 
+						de regular, italic, bold en bold italic.
+						</blockquote>
+					<h3 id="kapitalen"> KAPITALEN en onderkastletters
+					</h3>
+						<blockquote>Kapitale letters zijn oorspronkelijk afgeleid van in steen gehakte Romeinse inscripties 
+						en ontlenen vaak daaraan nog hun rechtlijnige en ‘kapbare’ karakter. <br>
+						Onderkastletters werden later toegevoegd in het handschrift.
+						</blockquote>
+					<h3 id="kleinkapitalen">Kleinkapitalen
+					</h3>
+						<blockquote>Dit zijn hertekende kapitalen ter grootte van de x-hoogte.
+						Ze zijn breder getekend en hebben een stamdikte die ongeveer gelijk is aan de 
+						onderkastletter van dat corps.<br>
+						Kleinkapitalen zijn dus geen verkleinde kapitalen.</blockquote>
+						<p><b>Een kleinkapitaal wordt gebruikt voor:</b></p>
+					<ul>
+						<li>accentuering in een tekst zonder daarbij het grijsbeeld te verstoren</li>
+						<li>afkortingen</li>
+						<li>ondertitels</li>
+					</ul>
+					<h3 id="cijfers">Tabel- en mediaevalcijfers
+					</h3>
+						<blockquote>Gewone (tabel)cijfers lijken in een leestekst te groot. Dit komt omdat ze even 
+						hoog zijn als de kapitalen.<br>
+						Mediævalcijfers zijn zo getekend dat ze lijken op onderkastletters.<br> Sommige 
+						cijfers hebben een ‘ascender’ of een ‘descender’. <br>
+						Zo passen ze beter in een leestekst.
+						</blockquote>
+					<h3 id="letterkeuze">Letterkeuze
+					</h3>
+						<blockquote>Elk lettertype heeft zijn eigen karakter, zijn eigen tijdsgeest en uitstraling.
+						Niet elke letter kan voor elke toepassing worden gebruikt.
+						</blockquote>
+						<p><b>Waarmee rekening houden?</b>
+						</p>
+					<ul>
+						<li>Voor welke doelgroep wordt het gemaakt?</li>
+						<li>Welke boodschap moet overgebracht worden?</li>
+						<li>Hoe goed is het lettertype leesbaar?</li>
+					</ul>
+			</div>
+			</div>
+		</div>
+
+		<div id="slide_vier">
+		
+			<div class="overflow">
+			<div class="inhoud">
+				<h1 id="letteronderdelen">Letteronderdelen</h1>
+				<blockquote>Een letter bestaat uit verschillende onderdelen. <br>
+				Veel van deze benamingen stammen uit het ‘loden tijdperk’ of vinden hun 
+				oorsprong in het handschrift.
+				</blockquote>
+					<h3 id="schreef">Schreef
+					</h3>
+						<blockquote>Afsluiting van stok, staart of vlag door middel van een dwarsstreep of 
+						verbreding van de uiteinden. <br>
+						Schreven bepalen de meest voor de hand liggende indeling van lettertypen. We 
+						praten dan ook over schreef- en schreefloze letters.
+						</blockquote>
+					<h3 id="beeld">Beeld
+					</h3>
+						<blockquote>Het onderdeel van de letter dat gedrukt wordt.
+						</blockquote>
+					<h3 id="romp">Romp</h3>
+						<blockquote>Het deel van de onderkastletter dat tussen de staart en de stok ligt.
+						</blockquote>
+					<h3 id="stok">Stok (ascender)</h3>
+						<blockquote>Het staande deel van een onderkastletter dat boven de x-hoogte uitsteekt.</blockquote>
+					<h3 id="staart">Staart (descender)</h3>
+						<blockquote>Het deel van de onderkastletter dat onder de x-hoogte ligt.</blockquote>
+					<h3 id="vlees">Vlees</h3>
+						<blockquote>Het deel binnen en buiten de letter dat niet gedrukt wordt.</blockquote>
+					<h3 id="vlag">Vlag</h3>
+						<blockquote>De open kromming in letters, bijvoorbeeld bij de r, f en a.</blockquote>
+					<h3 id="boog">Boog</h3>
+						<blockquote>De kromming in letters, bijvoorbeeld bij de b, c, h, o en p.</blockquote>
+					<h3 id="breedte">Letterbreedte</h3>
+						<blockquote>De breedtemaat van een teken. 
+						Deze maat verschilt per teken en lettertype. Deze letterbreedte wordt uitgedrukt 
+						in eenheden van het corpsvierkant.<br> 
+						Links en rechts van de letterbreedte staat een vaste hoeveelheid wit. <br>
+						De maat van het wit is zodanig ontworpen dat er altijd een evenwichtig 
+						gespatieerd woordbeeld ontstaat. <br>
+						Voor sommige lettercombinaties dient deze ruimte echter aangepast te worden. <br>
+						Het aanpassen van deze ruimte noemen we ‘kerning’.</blockquote>
+			</div>
+			</div>
+		</div>
+
+	
+
+
+
+
+</div>
+
+<!---------------------------------------------------------------------------------------------------------------------------------->
+
 		
 			<footer>
 			<p class="copy">©2015 De Vylder Dries</p>
