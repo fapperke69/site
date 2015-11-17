@@ -1,0 +1,3 @@
+-pijlen doen wisselen van scrollrichting
+-slides in pixel, geen %
+-header links en hexagons ook doen scrollen (nu doen ze echt iets raar)
