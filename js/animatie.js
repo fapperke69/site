@@ -6,9 +6,6 @@ var intTeller = 1;
 function slider(richting) {
 
 
-
-
-
 if (richting == 'links') {
 
 	if (intTeller < 5){
@@ -32,35 +29,23 @@ intTeller++;
 	if (intTeller > 1){
 
 	$('.slides').animate({
-        'marginLeft' : "+=1400px" //moves right
+        'marginLeft' : "+=1400px" 
         }, 500);
 
 	if (intTeller == 2) {
 			 $('.slider').animate({
-        'marginLeft' : "+=1400px" //doet de hexagon div naar links.
+        'marginLeft' : "+=1400px" 
         }, 500);
 
 		}	
 
 
-
-
 	intTeller--;
 }
 
-	
 }
 
- 
-
-
-
 }
-
-
-/*
-** hieronder staat de code om via een klik op een hexagon een specifieke div in te laten scrollen
-*/   
 
 function hexagonslide(nummervanhexagon){
 
@@ -69,26 +54,25 @@ if (intTeller == 1){
 	
 
 	 	$('.slides').animate({
-	        'marginLeft' : "-=1400px" //moves left
+	        'marginLeft' : "-=1400px" 
 	        }, 500);
 
 	 
 	 $('.slider').animate({
-        'marginLeft' : "-=1400px" //doet de hexagon div naar links.
+        'marginLeft' : "-=1400px" 
         }, 500);
 		 intTeller++;
 	}
 	
 	if (nummervanhexagon == 2){
 	
-
 	 	$('.slides').animate({
-	        'marginLeft' : "-=2800px" //moves left
+	        'marginLeft' : "-=2800px" 
 	        }, 500);
 
 	 
 	 $('.slider').animate({
-        'marginLeft' : "-=1400px" //doet de hexagon div naar links.
+        'marginLeft' : "-=1400px" 
         }, 500);
 		 intTeller++;
 		 intTeller++;
@@ -97,12 +81,11 @@ if (intTeller == 1){
 	
 
 	 	$('.slides').animate({
-	        'marginLeft' : "-=4200px" //moves left
+	        'marginLeft' : "-=4200px" 
 	        }, 500);
 
-	 
 	 $('.slider').animate({
-        'marginLeft' : "-=1400px" //doet de hexagon div naar links.
+        'marginLeft' : "-=1400px" 
         }, 500);
 		 intTeller++;
 		 intTeller++;
@@ -112,12 +95,11 @@ if (intTeller == 1){
 	
 
 	 	$('.slides').animate({
-	        'marginLeft' : "-=5600px" //moves left
+	        'marginLeft' : "-=5600px" 
 	        }, 500);
 
-	 
 	 $('.slider').animate({
-        'marginLeft' : "-=1400px" //doet de hexagon div naar links.
+        'marginLeft' : "-=1400px"
         }, 500);
 		 intTeller++;
 		 intTeller++;
@@ -130,7 +112,7 @@ if (intTeller == 2){
 	
 
 	 	$('.slides').animate({
-	        'marginLeft' : "-=0px" //moves left
+	        'marginLeft' : "-=0px"
 	        }, 500);
 
 	}
@@ -139,7 +121,7 @@ if (intTeller == 2){
 	
 
 	 	$('.slides').animate({
-	        'marginLeft' : "-=1400px" //moves left
+	        'marginLeft' : "-=1400px"
 	        }, 500);
 
 		 intTeller++;
@@ -148,7 +130,7 @@ if (intTeller == 2){
 	
 
 	 	$('.slides').animate({
-	        'marginLeft' : "-=2800px" //moves left
+	        'marginLeft' : "-=2800px"
 	        }, 500);
 
 		 intTeller++;
@@ -158,7 +140,7 @@ if (intTeller == 2){
 	
 
 	 	$('.slides').animate({
-	        'marginLeft' : "-=4200px" //moves left
+	        'marginLeft' : "-=4200px"
 	        }, 500);
 
 		 intTeller++;
@@ -171,7 +153,7 @@ if (intTeller == 3){
 	
 
 	 	$('.slides').animate({
-	        'marginLeft' : "+=1400px" //moves left
+	        'marginLeft' : "+=1400px" 
 	        }, 500);
 		intTeller--;
 	}
@@ -180,7 +162,7 @@ if (intTeller == 3){
 	
 
 	 	$('.slides').animate({
-	        'marginLeft' : "-=0px" //moves left
+	        'marginLeft' : "-=0px"
 	        }, 500);
 
 	}
@@ -188,7 +170,7 @@ if (intTeller == 3){
 	
 
 	 	$('.slides').animate({
-	        'marginLeft' : "-=1400px" //moves left
+	        'marginLeft' : "-=1400px"
 	        }, 500);
 
 		 intTeller++;
@@ -197,7 +179,7 @@ if (intTeller == 3){
 	
 
 	 	$('.slides').animate({
-	        'marginLeft' : "-=2800px" //moves left
+	        'marginLeft' : "-=2800px"
 	        }, 500);
 
 		 intTeller++;
@@ -209,7 +191,7 @@ if (intTeller == 4){
 	
 
 	 	$('.slides').animate({
-	        'marginLeft' : "+=2800px" //moves left
+	        'marginLeft' : "+=2800px"
 	        }, 500);
 		intTeller--;
 		intTeller--;
@@ -219,7 +201,7 @@ if (intTeller == 4){
 	
 
 	 	$('.slides').animate({
-	        'marginLeft' : "+=1400px" //moves left
+	        'marginLeft' : "+=1400px"
 	        }, 500);
 
 		 intTeller--;
@@ -228,7 +210,7 @@ if (intTeller == 4){
 	
 
 	 	$('.slides').animate({
-	        'marginLeft' : "-=0px" //moves left
+	        'marginLeft' : "-=0px"
 	        }, 500);
 
 	}
@@ -236,7 +218,7 @@ if (intTeller == 4){
 	
 
 	 	$('.slides').animate({
-	        'marginLeft' : "-=1400px" //moves left
+	        'marginLeft' : "-=1400px"
 	        }, 500);
 
 		 intTeller++;
@@ -247,7 +229,7 @@ if (intTeller == 5){
 	
 
 	 	$('.slides').animate({
-	        'marginLeft' : "+=4200px" //moves left
+	        'marginLeft' : "+=4200px"
 	        }, 500);
 		intTeller--;
 		intTeller--;
@@ -258,7 +240,7 @@ if (intTeller == 5){
 	
 
 	 	$('.slides').animate({
-	        'marginLeft' : "+=2800px" //moves left
+	        'marginLeft' : "+=2800px"
 	        }, 500);
 
 		 intTeller--;
@@ -268,7 +250,7 @@ if (intTeller == 5){
 	
 
 	 	$('.slides').animate({
-	        'marginLeft' : "+=1400px" //moves left
+	        'marginLeft' : "+=1400px"
 	        }, 500);
 
 		intTeller--;
@@ -277,7 +259,7 @@ if (intTeller == 5){
 	
 
 	 	$('.slides').animate({
-	        'marginLeft' : "-=0px" //moves left
+	        'marginLeft' : "-=0px"
 	        }, 500);
 
 	}
