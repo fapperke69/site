@@ -227,7 +227,6 @@ if (intTeller == 4){
 if (intTeller == 5){
 	if (nummervanhexagon == 1){
 	
-
 	 	$('.slides').animate({
 	        'marginLeft' : "+=4200px"
 	        }, 500);
@@ -238,7 +237,6 @@ if (intTeller == 5){
 	
 	if (nummervanhexagon == 2){
 	
-
 	 	$('.slides').animate({
 	        'marginLeft' : "+=2800px"
 	        }, 500);
@@ -248,7 +246,6 @@ if (intTeller == 5){
 	}
 	if (nummervanhexagon == 3){
 	
-
 	 	$('.slides').animate({
 	        'marginLeft' : "+=1400px"
 	        }, 500);
