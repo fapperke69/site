@@ -4,7 +4,7 @@ body {
 
 .slider {
 	position: absolute;
-	width: 85%;
+	width: 1285px;
 	height: 600px;
 	left: 7.5%;
 	top: 200px;
@@ -40,15 +40,16 @@ body {
 
 	position: absolute;
 	left: 100%;
-	top: 30%;
-	width: 400%;
-	height: 63%;
+	top: 200px;
+	width: 5000px;
+	height: 600px;
 }
 
 #slide_een {
 	position: absolute;
-	width: 21.25%;
-	height: 87.5%;
+	width: 1285px;
+	height: 600px;
+
 	left: 0px;
 	top: 0px;
 
@@ -57,27 +58,30 @@ body {
 
 #slide_twee {
 	position: absolute;
-	left: 23.15%;
-	width: 21.25%;
-	height: 87.5%;	
+
+	left: 1400px;
+	width: 1285px;
+	height: 600px;	
 	top: 0px;
 
 }
 
 #slide_drie {
 	position: absolute;
-	left: 46.30%;
-	width: 21.25%;
-	height: 87.5%;	
+
+	left: 2800px;
+	width: 1285px;
+	height: 600px;	
 	top: 0px;
 
 }
 
 #slide_vier {
 	position: absolute;
-	left: 69.35%;
-	width: 21.25%;
-	height: 87.5%;	
+
+	left: 4200px;
+	width: 1285px;
+	height: 600px;	
 	top: 0px;
 
 }

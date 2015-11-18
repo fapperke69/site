@@ -21,14 +21,14 @@
 				<nav id="nav" class="center grid">
 					<div class="fonts-display clearfix">
 					
-					<p class="text-left alpha"><a href="#slide_een">Typografie</a>
-					<p class="text-left"><a href="#slide_twee">Ontwerpen</a>
+					<p class="text-left alpha" onclick="hexagonslide(1)"><a>Typografie</a>
+					<p class="text-left" onclick="hexagonslide(2)"><a>Ontwerpen</a>
 					<p class="logo-block">
 						<a href="index.html" title="Gemaakt door Dries De Vylder">
 							<img class="logo-img" src="images/logo-groot.png" alt="Gemaakt door Dries De Vylder" />
 						</a>
-					<p class="text-right"><a href="#slide_drie">De Letter</a>
-					<p class="text-right"><a href="#slide_vier">Letteronderdelen</a>
+					<p class="text-right" onclick="hexagonslide(3)"><a>De Letter</a>
+					<p class="text-right" onclick="hexagonslide(4)"><a>Letteronderdelen</a>
 					
 					</div>
 				</nav>
@@ -53,7 +53,7 @@
 				<div class="list-hex-grid list-inline-block clearfix">
 				<div class="hexagon1" onclick="hexagonslide(1)">
 				<div class="hex grid-1 full-img">
-					<a href ="#typo" title="Typografie">
+					<a title="Typografie">
 						<div class="inner">
 							<img src="images/hex-img-1.png" alt="Typografie"></img>
 						</div>
@@ -63,7 +63,7 @@
 				</div>
 				<div class="hexagon2" onclick="hexagonslide(2)">
 				<div class="hex grid-2 full-img">
-					<a href ="#ontwerpen" title="Ontwerpen">
+					<a title="Ontwerpen">
 						<div class="inner">
 							<img src="images/hex-img-2.png" alt="Typografie"/>
 						</div>
@@ -73,9 +73,9 @@
 				</div>
 				<div class="hexagon3" onclick="hexagonslide(3)">
 				<div class="hex grid-3 full-img">
-					<a href ="#letter" title="De letter">
+					<a title="De letter">
 						<div class="inner">
-							<img src="images/hex-img-2.png" alt="Typografie"/>
+							<img src="images/hex-img-3.png" alt="Typografie"/>
 						</div>
 						<div class="hexagon"></div>
 					</a>
@@ -83,9 +83,9 @@
 				</div>
 				<div class="hexagon4" onclick="hexagonslide(4)">
 				<div class="hex grid-4 full-img">
-					<a href ="#letteronderdelen" title="Letteronderdelen">
+					<a title="Letteronderdelen">
 						<div class="inner">
-							<img src="images/hex-img-2.png" alt="Typografie"/>
+							<img src="images/hex-img-4.png" alt="Typografie"/>
 						</div>
 						<div class="hexagon"></div>
 					</a>
@@ -103,13 +103,13 @@
 
 <div class="leftbutton">
 
-		<a href="#" onclick="slider('links');"><div id="buttonleft"><img src="images/links.png"></div></a>
+		<a href="#" onclick="slider('rechts');"><div id="buttonleft"><img src="images/links.png"></div></a>
 
 	</div>
 
 	<div class="rightbutton">
 
-		<a href="#" onclick="slider('rechts');"><div id="buttonright"><img src="images/rechts.png"></div></a>
+		<a href="#" onclick="slider('links');"><div id="buttonright"><img src="images/rechts.png"></div></a>
 		
 
 	</div>
@@ -121,7 +121,7 @@
 
 		<div id="slide_een">
 			<div class="overflow">
-			<div class="inhoud">
+			<div class="video">
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/wOgIkxAfJsk" frameborder="0" allowfullscreen></iframe>
 			</div>
 			</div>

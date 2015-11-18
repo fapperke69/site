@@ -98,7 +98,7 @@ img {
 	z-index: 2;
 }
 .list-hex-grid {
-	margin-left: 507px;
+	margin-left: 501px;
 	width: 600px;
 	position: absolute;
 }
@@ -200,4 +200,11 @@ img {
 .overflow {
 	overflow: auto;
 	width: 1200px;
+}
+.video {
+	width: 560px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
 }
